@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Confeitaria Crock Cookies</title>
+    <link rel="shorcut icon" href="img/icon.jpeg">
     </head>
-    <link rel="shorcut icon" href="img/icon.png.jpeg">
     <body>
         <header>
             <h1> Crock Cookies</h1>
@@ -27,20 +27,20 @@
             <label for="id_nome">Nome do cliente:</label><br>
             <input type="text" id="id_nome" name="nome"><br><br>
             <label for="id_email">E-mail:</label><br>
-            <input type="text" id="id_email" e-mail="e-mail"><br><br>
+            <input type="text" id="id_email" name="e-mail"><br><br>
             <label for="Motivo">Escolha uma opção:
-            <select name="reclamação" id="reclamação">
+            <select name="reclamação" id="id_reclamação">
             <option value="Avariado">Avariado</option>
-            <option value="Entrega">Tempo de Espera</option>  
-            <option value="Diferente do anunciado">Divergência</option>
+            <option value="Entrega">Tempo de Entrega</option>  
+            <option value="Diferente do anunciado">Divergência no pedido</option>
             <option value="Pagamento">Probelmas com Pagamento</option>
             <option value="Outra Opção">Outros</option>
 
             </select><br><br>
 
-            <label for="id_mensagem">Motivo:</label><br>
+            <label for="id_mensagem">Descreva o ocorrido:</label><br>
             <textarea name="mensagem" id="id_mensagem"></textarea><br><br>
-            <input type="submit" value="Enviar">
+            <button type="submit">Enviar</button>
 
         </form>
 
